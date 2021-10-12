@@ -9,14 +9,16 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
-names_list = names_string.split(", ")
+num_items = len(names)
 
-number = int(len(names_list))
+random_choice = random.randint(0, num_items - 1)
 
-value_random = random.randint(1, [number])
+person_who_will_pay = names [random_choice]
 
-lastvalue = (names_list[value_random])
+print (person_who_will_pay + " is going to buy the meal today. \n")
 
-print (f"The person who sill paid the bill wil be {lastvalue}")
+person_who_will_pay_2 = random.choice(names)
 
-print(number)
+print (person_who_will_pay_2 + " is going to buy the meal today. \n")
+
+print ("_ _ _ _ _ \n")
