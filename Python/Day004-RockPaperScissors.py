@@ -62,7 +62,7 @@ elif random_integer == 1:
     print(paper)
     print("\n _ _ _ _ _ \n")
 
-elif random_integer == 2:
+elif random_integer == 2:Sip
     print(scissors)
     print("\n _ _ _ _ _ \n")  
 
